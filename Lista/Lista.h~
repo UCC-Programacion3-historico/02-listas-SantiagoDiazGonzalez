@@ -169,8 +169,6 @@ void Lista<T>::remover(int pos) {
     cont++;
     aux = aux->getNext();
   }
-  if(aux->getNext() == NULL)
-    throw 1;
   
   Nodo<T> *tmp = aux->getNext();
   aux->setNext(tmp->getNext());
