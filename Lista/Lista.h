@@ -279,7 +279,13 @@ void Lista<T>::vaciar() {
     }
     inicio = NULL;
 }
-
+/**
+ * Función que inserta un nodo con el valor newValue después de la enésima ocurrencia de oldValue.
+ * @tparam T
+ * @param n cantidad de veces que debe ocurrir el valor oldValue
+ * @param oldValue valor elegido como referencia para n
+ * @param newValue valor del dato en el nodo a insertar
+ */
 template<class T>
 void Lista<T>::insertAfter2(T oldValue, int n, T newValue) {
     int cont = 0;

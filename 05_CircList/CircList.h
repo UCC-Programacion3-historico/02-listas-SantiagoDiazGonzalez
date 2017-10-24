@@ -45,9 +45,6 @@ bool CircList<T>::esVacia() {
 }
 
 template<class T>
-int CircList<T>::getTamanio() {}
-
-template<class T>
 void CircList<T>::insertar(T dato) {
     if(NULL == puntero){
         puntero = new Nodo(dato);
